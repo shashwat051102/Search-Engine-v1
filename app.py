@@ -20,7 +20,7 @@ wiki = WikipediaQueryRun(api_wrapper=wiki_wrapper)
 search = DuckDuckGoSearchRun(name = "Search")
 
 
-st.title("Search engine using langchain")
+st.title("Search engine v1")
 
 # sidebar for settings
 # st.sidebar.title("Settings")
