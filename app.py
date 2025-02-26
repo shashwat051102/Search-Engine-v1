@@ -23,7 +23,7 @@ search = DuckDuckGoSearchRun(name = "Search")
 st.title("Search engine using langchain")
 
 # sidebar for settings
-st.sidebar.title("Settings")
+# st.sidebar.title("Settings")
 api_keys = os.getenv("GROQ_API_KEY")
 
 if "messages" not in st.session_state:
